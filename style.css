@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #222;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 50px;
+}
+
+.dark-mode{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/*Button style*/
+#toggleBtn {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+#toggleBtn:hover {
+    transform: scale (1.05);
+}
+
+/*Content Card*/
+.content-card {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background 0.5s, color 0.5s,
+}
+
+/* Card color in dark mode */
+.dark-mode .content-card {
+    background: #333;
+    color: white;
+}
